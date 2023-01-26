@@ -55,7 +55,7 @@ export default class Login {
         this.onNavigate(ROUTES_PATH['Dashboard'])
         this.PREVIOUS_LOCATION = ROUTES_PATH['Dashboard']
         PREVIOUS_LOCATION = this.PREVIOUS_LOCATION
-        document.body.style.backgroundColor="#fff"
+        this.document.body.style.backgroundColor="#fff"
       })
   }
 
