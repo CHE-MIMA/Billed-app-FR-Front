@@ -22,9 +22,9 @@ const row = (bill) => {
 const rows = (data) => {
   return (data && data.length) ? data
 
-    // //Bug 1
-    // //------ajout de la méthode de tri-----
-    // .sort((a, b) => new Date(b.date) - new Date(a.date))
+    //Bug 1
+    //------ajout de la méthode de tri-----
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
 
     .map(bill => row(bill))
     .join("") : ""
