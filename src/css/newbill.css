@@ -61,3 +61,13 @@ textarea:focus, input:focus, select:focus {
 *[placeholder] {
   color: #0E5AE5 !important;
 }
+/* bug 3*/
+/* on ajoute display block ou none pour aficher ou cacher l'erreur */
+.error{
+  display: none;
+}
+.error-display{
+color: red;
+display: block !important;
+}
+

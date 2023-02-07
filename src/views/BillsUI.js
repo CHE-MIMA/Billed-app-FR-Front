@@ -25,6 +25,7 @@ const rows = (data) => {
     //Bug 1
     //------ajout de la méthode de tri-----
     .sort((a, b) => new Date(b.date) - new Date(a.date))
+    //---------------------
 
     .map(bill => row(bill))
     .join("") : ""
