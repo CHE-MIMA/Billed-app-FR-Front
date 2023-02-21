@@ -56,10 +56,6 @@ export default () => {
                   <div class="col-half">
                     <label for="file" class="bold-label">Justificatif</label>
                     <input required type="file" class="form-control blue-border" data-testid="file" />
-                   
-                    <-- ajout de la classe error -->
-                    <span class = "error" data-testid = "message-erreur">Choisir une extension de type jpg, jpeg ou png</span>
-
                   </div>
                 </div>
             </div>
