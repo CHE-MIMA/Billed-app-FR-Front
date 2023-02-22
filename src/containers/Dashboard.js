@@ -149,11 +149,8 @@ export default class {
     //   $(`#open-bill${bill.id}`).click((e) => this.handleEditTicket(e, bill, bills))
     // })
     /**---------bug 4----------------------------------------------
-    * ajout lignes 157-158 si l'élément n'a pas de listener on l'ajoute
-    * La méthode .data() nous permet d'attacher des données de n'importe quel type 
-    * à des éléments du DOM d'une manière qui est à l'abri des références circulaires 
-    * et donc des fuites de mémoire. L'utilisation de la méthode data() pour mettre à jour
-    *  des données n'affecte pas les attributs dans le DOM
+    * ajout lignes 157-158 si l'élément n'a pas de listener on l'ajoute avec 
+    * La méthode .data()
     * ------------------------------------------------------------
     */
 

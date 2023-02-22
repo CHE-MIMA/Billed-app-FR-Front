@@ -54,7 +54,7 @@ describe("Given I am connected as an employee", () => {
             type: "image/png",
           });
 
-          screen.getByTestId("expense-type").value = "factures";
+          screen.getByTestId("expense-type").value = "services";
           screen.getByTestId("expense-name").value = "gaz";
           screen.getByTestId("datepicker").value = "2022-05-27";
           screen.getByTestId("amount").value = "42";

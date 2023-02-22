@@ -20,6 +20,8 @@ export default class NewBill {
     const file = this.document.querySelector(`input[data-testid="file"]`).files[0];
     const input = document.querySelector("input[data-testid=file]");
     /* resolution bug 3
+    je verifie le format du fichier et sil nest pas null 
+    et j'envoie une alert si le format est different du jpg, jpeg ou png. 
      */
     const validFile = /(\.jpg|\.jpeg|\.png)$/i;
     const filePath = e.target.value.split(/\\/g);

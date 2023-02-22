@@ -33,6 +33,7 @@ export default class {
         .bills()
         .list()
         .then(snapshot => {
+          // -------bug 1-------
           //------ajout de la méthode de tri sort-----
           const bills = snapshot
             .sort((a, b) => new Date(b.date) - new Date(a.date))

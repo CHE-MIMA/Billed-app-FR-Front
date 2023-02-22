@@ -14,7 +14,7 @@ $ git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Back.
 
 Clonez le projet frontend 
 ```
-$ git clone https://github.com/CHE-MIMA/Billed-app-FR-Front
+$ git clone https://github.com/CHE-MIMA/Billed-app-FR-Front.git
 ```
 
 ## Comment lancer l'application en local ?
@@ -60,6 +60,8 @@ Installez jest-cli :
 
 ```
 $npm i -g jest-cli
+
+```
 $jest src/__tests__/your_test_file.js
 
 
